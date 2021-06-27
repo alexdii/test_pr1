@@ -1,9 +1,10 @@
 package JFraim;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class JFrameProbed extends JFrame{
+public class JFrameProbed extends JFrame {
     JButton b1, b2;
     JLabel l1, l2, l3, l4;
     JTextField t1, t2;
@@ -19,7 +20,7 @@ public class JFrameProbed extends JFrame{
         l2 = new JLabel("Введите второе число: ");
         l3 = new JLabel("");
         l4 = new JLabel("");
-        t1 = new JTextField( 10);   // пространство поля ввода в 10 символов
+        t1 = new JTextField(10);   // пространство поля ввода в 10 символов
         t2 = new JTextField(10);
         add(b1);
         add(b2);
