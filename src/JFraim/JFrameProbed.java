@@ -32,5 +32,5 @@ public class JFrameProbed extends JFrame {
         add(l4);
 
     }
-
+// Empty window.
 }
