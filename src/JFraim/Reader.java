@@ -4,14 +4,14 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class JFrameProbed extends JFrame {
+public class Reader extends JFrame {
     JButton b1, b2;
     JLabel l1, l2, l3, l4;
     JTextField t1, t2;
     int i, k;
     String a, b;
 
-    public JFrameProbed(String s) {
+    public Reader(String s) {
         super(s);
         setLayout(new FlowLayout());
         b1 = new JButton("Очистить");
@@ -32,5 +32,6 @@ public class JFrameProbed extends JFrame {
         add(l4);
 
     }
-// Empty window.
+
 }
+
